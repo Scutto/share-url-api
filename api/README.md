@@ -1,7 +1,7 @@
 # Istruzioni
 
 ## Installazione
-Una volta copiato il codice da github, usare il comando `composer install` per installare tutte le dependencies necessarie.
+Una volta copiato il codice da github, assicurarsi di trovarsi nella cartella "api" e poi usare il comando `composer install` per installare tutte le dependencies necessarie.
 Copiare il file `.env.example` e rinominarlo `.env`. All'interno inserire tutte le informazioni necessarie perché l'applicazione possa connettersi a un database e a un provider per spedire emails.
 Usare il comando `php artisan key:generate` per generare una key per l'applicazione.
 Usare il comando `php artisan migrate:fresh --seed` per migrare il database e riempirlo di test dati. (Leggere le considerazioni alla fine di questo documento prima di utilizzare questo comando)
